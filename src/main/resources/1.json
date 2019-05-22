@@ -1,0 +1,15 @@
+{
+  "animal_type": "cat",
+  "name": "Vasya",
+  "age": 25,
+  "has_tail": true,
+  "colors": [
+    "white",
+    "orange",
+    "black"
+  ],
+  "cat_friends":{
+    "count": 3
+  }
+
+}

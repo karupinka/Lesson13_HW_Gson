@@ -1,0 +1,29 @@
+{
+  "title": "Animal",
+  "type": "object",
+
+  "properties":{
+    "animal_type":{
+      "type": "string"
+    },
+    "age":{
+      "type": "integer"
+    },
+    "name":{
+      "type": "string"
+    },
+    "has_tail":{
+      "type": "boolean"
+    },
+    "colors":{
+      "type": "array",
+      "items": {
+        "type":"string"
+      }
+    },
+    "friends":{
+      "$ref": "friend.json"
+    }
+  },
+  "additionalProperties": false
+}
